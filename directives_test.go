@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/graphql-go/graphql"
-	"github.com/graphql-go/graphql/gqlerrors"
-	"github.com/graphql-go/graphql/testutil"
+	"github.com/seripap/graphql"
+	"github.com/seripap/graphql/gqlerrors"
+	"github.com/seripap/graphql/testutil"
 )
 
 var directivesTestSchema, _ = graphql.NewSchema(graphql.SchemaConfig{
